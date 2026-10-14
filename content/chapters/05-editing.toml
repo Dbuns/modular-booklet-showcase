@@ -1,0 +1,45 @@
+[chapter]
+id = "editing-workflow"
+title = "Editing the Booklet"
+color = "#7F4A6A"
+start_on_odd = true
+marked = false
+
+[[sections]]
+id = "content-first"
+type = "text"
+title = "Content-first workflow"
+body = [
+  "Most updates should require editing only a TOML content file. Add a chapter file, choose a supported section type, supply the text and assets, then run the build. The planner measures the content, distributes it over pages, and generates the table of contents.",
+  "The visual implementation lives separately in Typst. That separation allows non-design edits to remain small and predictable while advanced users can still extend the component library."
+]
+
+[[sections]]
+id = "small-change-checklist"
+type = "bullets"
+title = "For a small content change"
+items = [
+  "Edit the relevant file in content/chapters",
+  "Use relationship labels such as attached, continuation, related, relaxed, or spacious only when the semantic connection matters",
+  "Run the build to create both the spread PDF and the A5 print PDF",
+  "Inspect the changed pages and their neighbors",
+  "Adjust a global range before introducing a one-off exception"
+]
+
+[[sections]]
+id = "content-flow-image"
+type = "image"
+title = "Project structure"
+image = "assets/showcase/workflow-placeholder.svg"
+width_mm = 104.0
+height_mm = 42.0
+fit = "contain"
+title_to_image_mm = 3.0
+
+[[sections]]
+id = "public-template-note"
+type = "highlight"
+title = ""
+relationship = "related"
+style = "bold"
+body = ["A good template makes the common edit easy, the exceptional edit possible, and every output verifiable."]

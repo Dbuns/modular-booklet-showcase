@@ -1,0 +1,55 @@
+[chapter]
+id = "people-directory"
+title = "People and Profiles"
+color = "#79AFA8"
+start_on_odd = true
+marked = false
+title_align = "center"
+
+[[sections]]
+id = "people-introduction"
+type = "text"
+title = "Alternating profile cards"
+body = ["People cards alternate the portrait between the outer and inner edge. Names, roles, rooms, pronouns, or contact details can occupy the secondary line. The square portraits shown here are placeholders and can be replaced without changing the layout."]
+
+[[sections]]
+id = "sample-team"
+type = "people"
+title = "Fictional team"
+
+[[sections.people]]
+first_name = "Eng. Martin"
+last_name = "Marmot"
+room = "Engineer"
+photo = "assets/showcase/marmot-engineer.svg"
+
+[[sections.people]]
+first_name = "Dr. Margot"
+last_name = "Burrows"
+room = "Scientist"
+photo = "assets/showcase/marmot-scientist.svg"
+
+[[sections.people]]
+first_name = "Graham"
+last_name = "Whistler"
+room = "Project Manager"
+photo = "assets/showcase/marmot-coordinator.svg"
+
+[[sections.people]]
+first_name = "Bernard"
+last_name = "Groundwell"
+room = "Business Development"
+photo = "assets/showcase/marmot-manager.svg"
+
+[[sections.people]]
+first_name = "Prof. Walter"
+last_name = "Stonepaw"
+room = "Training & Education"
+photo = "assets/showcase/marmot-teacher.svg"
+
+[[sections]]
+id = "people-guidance"
+type = "highlight"
+title = ""
+style = "bold"
+body = ["For a public repository, use fictional names and licensed or generated portraits. Keep real personal data in a private content layer rather than in the template itself."]

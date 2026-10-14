@@ -1,0 +1,31 @@
+[book]
+title = "Modular booklet showcase"
+start_page = 1
+contents = true
+contents_title = "Contents"
+
+[book.front_matter]
+marmot_note_before = "Sections marked with the marmot audience icon"
+marmot_note_after = "demonstrate optional content tagging for a selected reader group."
+document_title = "Document Information"
+document_lines = [
+  "Edition: Public showcase 1.0",
+  "Date: October 2026",
+  "Content: fictional demonstration data",
+  "Format: A5 pages arranged as A4 spreads",
+  "Created by Daniel Monteiro Cunha",
+  "Code: MIT; documentation and assets: CC BY 4.0"
+]
+updates_note = "This document explains the design system while demonstrating it. Names, links, locations, and procedures are illustrative only."
+
+[book.cover]
+mode = "image"
+image = "assets/showcase/showcase-cover-spread.svg"
+acronym = "MB"
+group_name = "Modular Booklet Showcase"
+institute = "A fictional, reusable reference project"
+tagline = "A visual catalogue of the components, spacing rules, and content patterns included in the template."
+back_note = "Use this showcase as a starting point, then replace the sample copy, placeholder portraits, colors, and links with your own material."
+paper_color = "#F2E8D8"
+ink_color = "#3A2F2A"
+band_colors = ["#2F6F6D", "#C35A2E", "#7F4A6A"]

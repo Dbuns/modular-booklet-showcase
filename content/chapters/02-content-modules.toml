@@ -1,0 +1,63 @@
+[chapter]
+id = "content-modules"
+title = "Reusable Content Modules"
+color = "#5A948F"
+start_on_odd = true
+marked = false
+
+[[sections]]
+id = "plain-text"
+type = "text"
+title = "Text blocks"
+body = [
+  "A text block contains an optional subtitle followed by one or more paragraphs. It is the default choice for explanatory material and requires no layout instructions beyond the content itself.",
+  "Keep paragraphs focused. When a topic becomes procedural or scannable, switch to bullets, routing rows, a highlighted statement, or a link module rather than forcing everything into prose."
+]
+
+[[sections]]
+id = "grouped-bullets"
+type = "bullets"
+title = "Bullet lists"
+items = [
+  "Short items use the standard bullet style for quick scanning",
+  "Grouped items can combine a bold lead-in with supporting detail",
+  "Numbered steps are available when sequence is essential"
+]
+
+[[sections]]
+id = "routing-example"
+type = "routing"
+title = "Routing rows"
+body = ["Use routing rows when readers need to map a question, topic, or task to a destination."]
+subtitle = "Where should this content live?"
+rows = [
+  { label = "Shared visual values", destination = "theme.toml" },
+  { label = "Book metadata", destination = "book.toml" },
+  { label = "Page copy", destination = "chapters/" },
+  { label = "Images and icons", destination = "assets/" }
+]
+
+[[sections]]
+id = "repository-file"
+type = "teams"
+title = "Repository or shared-file link"
+body = ["This module combines an icon, a navigation path, a filename, and a clickable link. Replace the icon and labels to represent GitHub, a shared drive, an intranet, or another document store."]
+icon = "assets/showcase/folder-icon.svg"
+path = ["Repository", "content", "chapters"]
+filename = "02-content-modules.toml"
+link = "https://example.com/booklet/content"
+
+[[sections]]
+id = "profile-template-example"
+type = "profile_template"
+title = "Image-and-list template"
+relationship = "spacious"
+body = ["A compact module for introductions, checklists, or any pattern that combines a square image with a short list."]
+image = "assets/showcase/marmot-engineer.svg"
+image_width_mm = 34.5
+image_height_mm = 34.5
+items = [
+  "Replace the placeholder",
+  "Keep each point concise",
+  "Let the planner position it"
+]

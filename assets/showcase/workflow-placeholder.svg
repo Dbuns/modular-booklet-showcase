@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" rx="28" fill="#F3ECEF"/>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="55" y="155" width="235" height="170" rx="24" fill="#2F6F6D"/>
+    <text x="172" y="230" font-size="34" font-weight="700" fill="white">CONTENT</text><text x="172" y="275" font-size="25" fill="white">TOML + assets</text>
+    <path d="M320 240h82" stroke="#3A2F2A" stroke-width="12" stroke-linecap="round"/><path d="M430 240l-34-25v50z" fill="#3A2F2A"/>
+    <rect x="460" y="155" width="235" height="170" rx="24" fill="#C35A2E"/>
+    <text x="578" y="230" font-size="34" font-weight="700" fill="white">PLANNER</text><text x="578" y="275" font-size="25" fill="white">measure + place</text>
+    <path d="M725 240h82" stroke="#3A2F2A" stroke-width="12" stroke-linecap="round"/><path d="M835 240l-34-25v50z" fill="#3A2F2A"/>
+    <rect x="865" y="105" width="280" height="115" rx="24" fill="#7F4A6A"/>
+    <text x="1005" y="165" font-size="30" font-weight="700" fill="white">SPREAD PDF</text><text x="1005" y="198" font-size="22" fill="white">screen review</text>
+    <rect x="865" y="260" width="280" height="115" rx="24" fill="#7F4A6A"/>
+    <text x="1005" y="320" font-size="30" font-weight="700" fill="white">A5 PDF</text><text x="1005" y="353" font-size="22" fill="white">individual pages</text>
+  </g>
+</svg>

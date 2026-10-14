@@ -1,0 +1,51 @@
+[chapter]
+id = "links-and-images"
+title = "Links, QR Codes, and Images"
+color = "#C35A2E"
+start_on_odd = true
+marked = false
+
+[[sections]]
+id = "qr-layout-guidance"
+type = "text"
+title = "Choosing a QR layout"
+body = ["Place longer explanations above the QR code at full column width. Reserve the side-by-side module for a short prompt, so the text remains readable and the code retains a comfortable scanning size."]
+
+[[sections]]
+id = "side-qr"
+type = "qr"
+title = "Side-by-side QR module"
+relationship = "related"
+body = ["Use this compact arrangement when one or two short sentences are enough."]
+image = "assets/showcase/qr-example.png"
+caption = "Example link"
+link = "https://example.com/booklet"
+layout = "side"
+qr_size_mm = 42.0
+
+[[sections]]
+id = "stacked-qr"
+type = "qr"
+title = "Stacked QR module"
+body = ["Longer explanations use the full text width first, followed by a centered QR code and caption. This keeps narrow columns from producing excessive line breaks and distributes content more evenly across the page."]
+image = "assets/showcase/qr-example.png"
+caption = "Extended resource"
+link = "https://example.com/booklet/resource"
+layout = "stacked"
+qr_size_mm = 43.0
+
+[[sections]]
+id = "landscape-image"
+type = "image"
+title = "Flow image"
+image = "assets/showcase/image-placeholder-landscape.svg"
+caption = "Image caption"
+width_mm = 104.0
+height_mm = 58.0
+fit = "cover"
+
+[[sections]]
+id = "image-guidance"
+type = "text"
+title = "Image behavior"
+body = ["Images can be placed in the normal reading flow or at explicit page coordinates for decorative compositions. Flow images are safer for editable content because later sections automatically move when the image dimensions change."]

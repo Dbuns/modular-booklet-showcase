@@ -1,0 +1,89 @@
+[colors]
+ink = "#2B2B2B"
+rule = "#6B6865"
+link = "#3E7888"
+
+[typography]
+body_font = "Arial"
+title_font = "Arial"
+subtitle_font = "Arial"
+body_size_pt = 12.5
+body_leading_pt = 23
+paragraph_after_pt = 18
+title_size_pt = 30.0
+title_leading_pt = 43
+subtitle_size_pt = 16
+subtitle_leading_pt = 25
+
+[spacing]
+title_after_mm = 5
+subtitle_after_mm = 6.5
+image_title_to_media_mm = 3.0
+image_after_mm = 5.0
+section_before_mm = 5
+qr_before_mm = -0.5
+qr_caption_height_mm = 8.8
+qr_caption_overlap_mm = 1.0
+qr_after_mm = 4
+qr_side_gap_mm = 2.6
+teams_before_mm = 4
+teams_title_to_path_mm = -2
+teams_path_to_file_mm = -2.2
+teams_after_mm = 10
+teams_label_leading_pt = 3.0
+qr_side_text_offset_mm = 0.0
+profile_bullet_gap_mm = 0.4
+grouped_bullet_height_correction_mm = 22.0
+grouped_paragraph_after_pt = 8
+grouped_leading_pt = 8
+grouped_body_gap_mm = 1.0
+bullets_after_mm = 5.0
+marmot_vertical_offset_mm = -0.5
+front_marmot_raise_mm = 1.5
+contents_title_to_entries_mm = 15
+contents_row_mm = 1.8
+
+[adaptive_layout]
+attached_before_mm = 0.0
+continuation_before_mm = 0.0
+related_before_mm = 2.0
+relaxed_before_mm = 6.0
+spacious_before_mm = 7.0
+attached_qr_gap_mm = -2.5
+marked_qr_marmot_offset_mm = 1.5
+marked_routing_marmot_offset_mm = 2.0
+centered_detail_before_mm = 3.0
+
+[geometry]
+page_capacity_mm = 170.5
+even_left_mm = 18.0
+even_right_mm = 23
+odd_left_mm = 24
+odd_right_mm = 15
+top_mm = 21
+bottom_mm = 22
+
+[images]
+person_mm = 25.0
+qr_box_mm = 46.9
+teams_icon_mm = 13.9
+marmot_mm = 6.0
+marmot_asset = "assets/showcase/marmot-audience-icon.png"
+
+[bullets]
+text_width_mm = 102.0
+diameter_mm = 2.2
+edge_to_text_mm = 5.4
+row_pitch_mm = 8
+center_y_mm = 0.5
+routing_arrow_column_mm = 12.0
+
+[people]
+border_pt = 1.0
+corner_radius_mm = 3.8
+rule_pt = 1.0
+card_gap_mm = 1
+name_to_rule_mm = 1
+rule_to_room_mm = 2
+image_to_text_mm = 2.7
+rule_length_mm = 70.0

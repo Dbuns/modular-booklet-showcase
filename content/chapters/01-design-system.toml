@@ -1,0 +1,43 @@
+[chapter]
+id = "design-system"
+title = "The Design System"
+color = "#2F6F6D"
+start_on_odd = true
+marked = false
+
+[[sections]]
+id = "hierarchy"
+type = "text"
+title = "Main title: 30 pt"
+body = [
+  "Chapter titles use Arial Bold at 30 pt with a 43 pt line height. They sit at the top of the content area and establish the strongest level in the hierarchy. A chapter may begin on an odd page so that major sections consistently open on the right-hand side of a printed booklet.",
+  "Section titles use Arial Medium at 16 pt with a 25 pt line height. Body text uses Arial Regular at 12.5 pt with a 23 pt line height. Paragraphs are justified and receive 18 pt of space after each paragraph. These values are controlled globally in content/theme.toml."
+]
+
+[[sections]]
+id = "page-geometry"
+type = "bullets"
+title = "Page geometry and rhythm"
+body = ["The page system uses a small number of shared rules instead of positioning every item manually:"]
+items = [
+  "Each logical page is A5 portrait; two pages are composed into one A4 landscape spread",
+  "Inside and outside margins differ so facing pages feel balanced after binding",
+  "Sections normally begin 5 mm after the preceding block; semantic relationships select other predictable gaps",
+  "Chapter accent colors identify sections through corner markers, bullets, and selected diagrams",
+  "Bullet spacing responds to the number of wrapped lines instead of using a fixed row height",
+  "Content is moved to the next page when the remaining space cannot accommodate it cleanly"
+]
+
+[[sections]]
+id = "adaptive-note"
+type = "highlight"
+title = ""
+style = "bold"
+body = ["Semantic spacing keeps recurring relationships consistent. Use an explicit one-off override only when a genuinely exceptional composition requires it."]
+
+[[sections]]
+id = "audience-marker"
+type = "text"
+title = "Optional audience marker"
+body = ["A small edge icon can mark content intended for a particular audience. The symbol, size, and offset are theme settings, so a project can replace it with its own icon or omit it entirely."]
+marked = true

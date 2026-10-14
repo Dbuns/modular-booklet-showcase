@@ -1,0 +1,19 @@
+{
+  "name": "modular-booklet-showcase",
+  "version": "1.0.0",
+  "description": "A content-first A5 booklet system using TOML, Python planning, and Typst rendering.",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "setup": "powershell -ExecutionPolicy Bypass -File ./setup.ps1",
+    "build": "powershell -ExecutionPolicy Bypass -File ./build.ps1",
+    "preview": "powershell -ExecutionPolicy Bypass -File ./live-preview.ps1",
+    "test": "powershell -ExecutionPolicy Bypass -File ./test.ps1"
+  },
+  "devDependencies": {
+    "@flukxr/typst-cli": "0.15.1-npm.0"
+  }
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1403" height="992" viewBox="0 0 1403 992">
+  <rect width="1403" height="992" fill="#F2E8D8"/>
+  <rect x="0" y="0" width="702" height="992" fill="#283D3B"/>
+  <circle cx="120" cy="150" r="210" fill="#2F6F6D" opacity="0.55"/>
+  <circle cx="580" cy="800" r="280" fill="#C35A2E" opacity="0.45"/>
+  <path d="M0 600 C210 470 430 730 702 520 L702 992 L0 992 Z" fill="#7F4A6A" opacity="0.65"/>
+  <g fill="none" stroke="#F2E8D8" stroke-width="5" opacity="0.58">
+    <rect x="82" y="105" width="110" height="110" rx="18"/>
+    <rect x="218" y="105" width="110" height="110" rx="18"/>
+    <rect x="354" y="105" width="110" height="110" rx="18"/>
+    <rect x="490" y="105" width="110" height="110" rx="18"/>
+  </g>
+  <text x="72" y="400" font-family="Arial, sans-serif" font-size="32" fill="#F2E8D8">A reusable editorial system for</text>
+  <text x="72" y="444" font-family="Arial, sans-serif" font-size="32" fill="#F2E8D8">structured, printable booklets.</text>
+  <text x="72" y="885" font-family="Arial, sans-serif" font-size="23" fill="#F2E8D8">Fictional content - public showcase</text>
+  <g transform="translate(702 0)">
+    <rect width="701" height="992" fill="#F7F4EF"/>
+    <rect x="0" y="0" width="18" height="992" fill="#C35A2E"/>
+    <circle cx="512" cy="148" r="95" fill="#2F6F6D"/>
+    <circle cx="590" cy="218" r="62" fill="#7F4A6A" opacity="0.9"/>
+    <circle cx="454" cy="230" r="45" fill="#C35A2E" opacity="0.9"/>
+    <text x="74" y="356" font-family="Arial, sans-serif" font-weight="700" font-size="78" fill="#283D3B">MODULAR</text>
+    <text x="74" y="440" font-family="Arial, sans-serif" font-weight="700" font-size="78" fill="#283D3B">BOOKLET</text>
+    <text x="74" y="524" font-family="Arial, sans-serif" font-weight="700" font-size="78" fill="#283D3B">SHOWCASE</text>
+    <rect x="74" y="572" width="455" height="8" fill="#C35A2E"/>
+    <text x="74" y="635" font-family="Arial, sans-serif" font-size="28" fill="#3A2F2A">Typography, components, people,</text>
+    <text x="74" y="677" font-family="Arial, sans-serif" font-size="28" fill="#3A2F2A">links, images, and editing workflow.</text>
+    <g transform="translate(74 790)">
+      <rect width="120" height="120" rx="18" fill="#2F6F6D"/>
+      <rect x="142" width="120" height="120" rx="18" fill="#C35A2E"/>
+      <rect x="284" width="120" height="120" rx="18" fill="#7F4A6A"/>
+      <path d="M30 82 L60 42 L90 82 Z" fill="#F2E8D8"/>
+      <circle cx="202" cy="60" r="32" fill="#F2E8D8"/>
+      <path d="M320 34 H368 V82 H320 Z" fill="none" stroke="#F2E8D8" stroke-width="8"/>
+    </g>
+  </g>
+</svg>

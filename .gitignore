@@ -1,0 +1,10 @@
+node_modules/
+.venv/
+tmp/
+__pycache__/
+*.py[cod]
+generated/book.json
+
+# Local verification exports; named deliverables in output/pdf remain tracked.
+output/pdf/verify_*.pdf
+output/pdf/_*.pdf

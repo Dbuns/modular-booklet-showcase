@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670">
+  <rect width="1200" height="670" fill="#DCE9E6"/>
+  <circle cx="965" cy="155" r="95" fill="#C35A2E" opacity="0.85"/>
+  <path d="M0 520L260 280l170 165 150-125 300 280H0z" fill="#2F6F6D"/>
+  <path d="M520 600l220-245 130 120 120-95 210 220z" fill="#7F4A6A" opacity="0.82"/>
+  <rect x="55" y="55" width="1090" height="560" rx="26" fill="none" stroke="#283D3B" stroke-width="6" stroke-dasharray="18 16"/>
+  <text x="600" y="120" text-anchor="middle" font-family="Arial" font-weight="700" font-size="42" fill="#283D3B">LANDSCAPE IMAGE PLACEHOLDER</text>
+  <text x="600" y="172" text-anchor="middle" font-family="Arial" font-size="27" fill="#3A2F2A">Replace with photography, an illustration, or a diagram</text>
+</svg>
